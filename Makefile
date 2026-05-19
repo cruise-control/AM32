@@ -23,8 +23,8 @@ ROOT := $(patsubst %/,%,$(dir $(lastword $(MAKEFILE_LIST))))
 include $(ROOT)/make/tools.mk
 
 # supported MCU types
-
-MCU_TYPES := E230 F031 F051 F415 F421 G071 L431 G431 V203 G031
+# E230 F031 F051 F415 F421 G071 L431 V203 G031
+MCU_TYPES := G431 
 
 MCU_TYPE := NONE
 
